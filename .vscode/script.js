@@ -13,10 +13,10 @@ function togglemode() {
     //substituir a img
     if(html.classList.contains('light')) {
         //se tiver lightmode, add a img
-        img.setAttribute('src','./assets/avatar-light.png')
+        img.setAttribute('src',' ./assets/conect-branco.png')
     } else{
         //se n tiver lightmode, mantem
-        img.setAttribute('src','./assets/avatar.png')
+        img.setAttribute('src','./assets/conect-preto.png')
     }
 } 
 
